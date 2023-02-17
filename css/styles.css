@@ -1,0 +1,106 @@
+#body{
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid red;
+    align-self: center;
+    top: 35%;
+    left: 20%;
+    position: absolute ;
+    max-width: 70% ;
+    z-index: 0;
+}
+#a{
+    display: inline-block;
+}
+.advert{
+    display: flex;
+}
+
+img{
+    height: 201px;
+    width: 1000px;
+}
+
+#header{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    background-color: blueviolet;
+    height: 50px;
+}
+input{
+    color: whitesmoke;
+    background-color: rgb(138, 138, 9);
+    align-self: start;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid red ;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+#email{
+    width: 90%;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1296891092/photo/abstract-program-code-on-the-digital-display.jpg?s=1024x1024&w=is&k=20&c=TrLGTHzZwL0O7WoA9Vv4JKi-KVoo_zNmjISwUm-Jxmg=");
+    background-color: antiquewhite;
+    position: relative;
+}
+#advert{
+    border: 1px solid red;
+    width: fit-content;
+    min-height: 200px;
+    margin: 20px;
+    background-color: brown;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#vid-text{
+    border: 1px solid red;
+    margin: 10px;
+    width: fit-content;
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    margin: 6%;
+    flex: 1;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 900px;
+    top: 25%;
+
+}
+li{
+    margin: 10%;
+}
+
+@media screen and(max-width:480px) {
+ul,#vid-text,.advert{
+    display: block;
+    width: 100%;
+}
+header{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 30px;
+}
+}
