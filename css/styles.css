@@ -91,7 +91,7 @@ li{
     margin: 10%;
 }
 
-@media screen and(max-width:480px) {
+@media only screen and(max-width:480px) {
 ul,#vid-text,.advert{
     display: block;
     width: 100%;
