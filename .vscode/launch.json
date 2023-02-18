@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open meah.html",
-            "file": "c:\\Users\\Deana\\Documents\\github\\mv-project-2\\meah.html"
+            "file": "c:\\Users\\Deana\\Documents\\github\\mv-project-2-meah\\meah.html"
         }
     ]
 }

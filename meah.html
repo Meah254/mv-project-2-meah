@@ -32,18 +32,133 @@
         <input id="submit" type="submit" value="Get started">
     </form>
 </div>
-<styles>
-@media only screen and(max-width:480px) {
-    img{
-        width:200px;
-    }
-    ul{
-        display: flex;
-    }
-}
-</styles>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
 </body>;
+<style>
+    #body{
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid red;
+    align-self: center;
+    top: 35%;
+    left: 20%;
+    position: absolute ;
+    max-width: 70% ;
+    z-index: 0;
+    box-sizing: border-box;
+}
+#a{
+    display: inline-block;
+}
+.advert{
+    display: flex;
+}
+input{
+    color: whitesmoke;
+    background-color: rgb(138, 138, 9);
+    align-self: start;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid red ;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+#email{
+    width: 90%;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1296891092/photo/abstract-program-code-on-the-digital-display.jpg?s=1024x1024&w=is&k=20&c=TrLGTHzZwL0O7WoA9Vv4JKi-KVoo_zNmjISwUm-Jxmg=");
+    background-color: antiquewhite;
+    position: relative;
+}
+#advert{
+    border: 1px solid red;
+    width: fit-content;
+    min-height: 200px;
+    margin: 20px;
+    background-color: brown;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#vid-text{
+    border: 1px solid red;
+    margin: 10px;
+    width: fit-content;
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+    margin: 10%;
+}
+li{
+    list-style: none;
+    margin: 10%;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    height: fit-content;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+    top: 0%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+#ul{
+    top: 0%;
+    flex-wrap: 1;
+}
+img{
+    height: 150px;
+    width: 450px;
+}
+hr{
+    color: crimson;
+    height: 10px;
+    background-color: crimson;
+}
+iframe{
+    margin-left: 10px;
+}
+ul{display: flex;}
+@media only screen and(max-width:480px) {
+    header{
+        display: inline-block;
+    }
+    ul{
+        display: inline-block;
+    }
+    .nav-link{
+        font-size: small;
+    }
+    #body{
+        width: 470px;
+        left: 0px;
+        top: 50px;
+
+    }
+    .advert{
+        display: inline-block;
+    }
+    #vid-text{
+        display: inline-block;
+    }
+    iframe{
+        width: 300PX;
+        height: 300PX;
+    }
+}
+</style>
 
 </html>h
